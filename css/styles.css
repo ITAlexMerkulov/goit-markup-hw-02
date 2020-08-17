@@ -13,3 +13,26 @@ footer {
 main {
   background-color: #fff;
 }
+
+ul {
+  list-style: none;
+}
+
+.header-link {
+  cursor: pointer;
+}
+
+.logo-left {
+  color: #2196f3;
+  text-decoration: none;
+  margin-right: 0px;
+}
+
+.logo-right {
+  color: black;
+  margin-left: 0px;
+}
+
+.logo-link {
+  text-decoration: none;
+}
