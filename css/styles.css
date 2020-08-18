@@ -1,5 +1,12 @@
+/* color: rgba(255, 255, 255, 0.6); цвет почты и телефона*/
+/* color: #2196F3; синий акцент */
+
+a {
+  text-decoration: none;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #e5e5e5;
 }
 
@@ -19,8 +26,18 @@ ul {
   list-style: none;
 }
 
-.header-link {
+.header-link-main {
   cursor: pointer;
+}
+
+.header-portfolio:hover:visited {
+  text-decoration: none;
+  color: #2196f3;
+  text-decoration-color: black;
+}
+
+.header-contacts {
+  text-decoration: none;
 }
 
 .logo-left {
@@ -34,7 +51,21 @@ ul {
   margin-left: 0px;
 }
 
+.logo-right-footer {
+  color: #ffffff;
+}
+
 .logo-link {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.office-address {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
