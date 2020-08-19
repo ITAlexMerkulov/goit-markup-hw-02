@@ -1,7 +1,7 @@
 /* color: rgba(255, 255, 255, 0.6); цвет почты и телефона*/
 /* color: #2196F3; синий акцент */
 
---color-white: ffffff;
+--color-white: #ffffff;
 
 a {
   color: black;
@@ -138,6 +138,28 @@ button:hover {
 .our-team-section h2 {
   text-align: center;
 }
+.our-team-section h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.our-team-section p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 
 .order-service {
   color: var(--color-white);
@@ -154,7 +176,7 @@ button:hover {
   letter-spacing: 0.06em;
 }
 
-.footer-contact-list {
+.footer-contact-list li a {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -164,4 +186,50 @@ button:hover {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.solution-description h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.solution-description p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* portfolio.html */
+.galery-board h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.galery-board p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
