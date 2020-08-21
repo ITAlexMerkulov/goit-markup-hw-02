@@ -32,13 +32,16 @@ body ul {
   font-style: normal;
 }
 
+.main-title {
+  display: none;
+}
+
 .link {
   columns: #000000;
   text-decoration: none;
 }
-.link:hover {
-  color: var(--color-blue);
-}
+
+.link:hover,
 .link:focus {
   color: var(--color-blue);
 }
@@ -66,39 +69,22 @@ body ul {
 ----------- */
 /* start logo css */
 
-.logo-link {
+.logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
-
   letter-spacing: 0.03em;
 }
 
 .logo-left {
-  font-family: Raleway;
   color: var(--color-blue);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
 }
 
 .logo-right {
-  font-family: Raleway;
   color: var(--color-black);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
 }
 
 .logo-footer {
@@ -126,14 +112,14 @@ body ul {
 }
 
 .main-link {
+  text-align: center;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   color: var(--color-white);
-  display: flex;
+  display: grid;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -232,8 +218,33 @@ body ul {
 
 .team-frame {
   background-color: #fff;
+  width: 270px;
+  height: 428px;
 }
 
+.igor {
+  position: normal;
+  left: 215px;
+  top: 1785px;
+}
+
+.olha {
+  position: normal;
+  left: 515px;
+  top: 1785px;
+}
+
+.nik {
+  position: normal;
+  left: 815px;
+  top: 1785px;
+}
+
+.michael {
+  position: normal;
+  left: 1115px;
+  top: 1785px;
+}
 /* +
 
 PORTFOLIO.HTML
@@ -246,22 +257,18 @@ PORTFOLIO.HTML
   font-size: 16px;
   line-height: 1.62;
   /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--color-black);
   background: var(--color-background-our);
 }
 
-.button:hover {
-  color: var(--color-white);
-  background-color: var(--color-blue);
-}
+.button:hover,
 .button:focus {
   color: var(--color-white);
   background-color: var(--color-blue);
 }
+
 .project-text {
   font-style: normal;
   font-weight: bold;
@@ -276,7 +283,7 @@ PORTFOLIO.HTML
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: var(--color-grey);
