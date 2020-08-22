@@ -24,7 +24,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: var(--color-white);
 }
 body ul {
@@ -131,8 +131,6 @@ body ul {
   font-size: 16px;
   line-height: 1.87;
   color: var(--color-white);
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -231,7 +229,7 @@ body ul {
 }
 
 .team-frame {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 /* +
